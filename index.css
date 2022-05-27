@@ -1,0 +1,131 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+.container1 {
+    width: fit-content;
+    margin: 0 auto;
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    position: relative;
+}
+.item{
+    display: flex;
+    background-color:#FCDBD0 ;
+    justify-content: space-between;
+    width: 358px;
+    border-radius: 6px;
+}
+.item_left{
+    padding:18px  ;
+    border-radius: 0 2px 2px 0;
+}
+.item_left p{
+    color: #F04A15;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+}
+.item_left span{
+    color: #595959;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 26px;
+}
+.item_right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left:1px dashed #F04A15;
+    padding:0 20px;
+}
+.item_right button{
+    background-color: #F04A15;
+    color: white;
+    border-color: transparent;
+    font-weight: 800;
+    font-size: 16px;
+    width: 80px;
+    height: 42px;
+    border-radius: 22px;
+}
+.btn_left{
+    position: absolute;
+    top:0 ;
+    transform: translateY(70%);
+    left: 180px;
+    border-radius: 100%;
+    background-color:#F04A15;
+    border-color:transparent;
+   
+}
+img{
+    width: 36px;
+    height: 36px;
+}
+.btn_right{
+    position: absolute;
+    top: 0;
+    transform: translateY(70%);
+    right: 180px;
+    border-radius: 100%;
+    background-color:#F04A15;
+    border-color:transparent;
+    
+}
+.all{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
